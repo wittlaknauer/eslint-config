@@ -116,6 +116,12 @@ export default tseslint.config(
     },
   },
   {
+    files: ["**/*.spec.ts"],
+    rules: {
+      "max-lines": "off",
+    },
+  },
+  {
     files: ["**/*.html"],
     extends: [
       ...angular.configs.templateRecommended,
