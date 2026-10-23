@@ -10,7 +10,7 @@ Geteilte ESLint-Konfiguration (Flat Config, ESLint 10) mit zwei Presets:
 Als devDependency mit festem Tag, in jedem Paket, das lintet:
 
 ```sh
-pnpm add -D "eslint-configs@git+https://github.com/wittlaknauer/eslint-config.git#v1.0.0" eslint typescript
+pnpm add -D "eslint-configs@git+https://github.com/wittlaknauer/eslint-config.git#v1.0.2" eslint typescript
 ```
 
 `eslint.config.mjs` im Paket:
